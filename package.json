@@ -1,0 +1,29 @@
+{
+  "name": "Kleen",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Revamp of Sander's huishoudwebsite",
+  "main": "index.html",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rkleinkromhof/Kleen.git"
+  },
+  "keywords": [
+    "kleen",
+	"chores",
+	"housekeeping",
+	"angularjs",
+    "firebase",
+    "angularfire",
+    "js"
+  ],
+  "author": "Robert Klein Kromhof",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/rkleinkromhof/Kleen/issues"
+  },
+  "homepage": "https://github.com/rkleinkromhof/Kleen"
+}
