@@ -1,0 +1,27 @@
+{
+  "name": "kleen",
+  "version": "1.0.0-initial",
+  "private": true,
+  "description": "Tracking and registration application for organizing household chores (AngularFire)",
+  "main": "index.html",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rkleinkromhof/kleen.git"
+  },
+  "keywords": [
+    "kleen",
+    "angularjs",
+    "firebase",
+    "angularfire",
+    "js"
+  ],
+  "author": "Robert Klein Kromhof <rkleinkromhof@gmail.com>",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/rkleinkromhof/kleen/issues"
+  },
+  "homepage": "https://github.com/rkleinkromhof/kleen"
+}
