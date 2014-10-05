@@ -1,0 +1,58 @@
+{
+	"households": {
+		"hanniewoep": {
+			"name": "Hanneke en Woep",
+			"members": {
+				"robert": true,
+				"hanneke": true
+			}
+		}
+	},
+	"members": {
+		"robert": {
+			"name": "Robert",
+			"email": "rkleinkromhof@gmail.com",
+			"households": {
+				"hanniewoep": true
+			}
+		},
+		"hanneke": {
+			"name": "Hanneke",
+			"email": "hannekevanderwateren@gmail.com",
+			"households": {
+				"hanniewoep": true
+			}
+		}
+	},
+	"tasks": {
+		"afstoffen": {
+			"name": "Afstoffen",
+			"type": "ongoing",
+			"private": false,
+			"due": "2014-12-05 10:00",
+			"frequency": "weekly",
+			"koins": 10,
+			"assignees": {
+				"robert": true,
+				"hanneke": true
+			},
+			"lastdone": "h2",
+			"history": {
+				"h1": true,
+				"h2": true
+			}
+		}
+	},
+	"history": {
+		"h1": {
+			"task": "afstoffen",
+			"member": "robert",
+			"completed": "2014-09-28 16:43:02.547"
+		},
+		"h2": {
+			"task": "afstoffen",
+			"member": "hanneke",
+			"completed": "2014-10-05 12:14:34.321"
+		}
+	}
+}
