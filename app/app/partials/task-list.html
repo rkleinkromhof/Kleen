@@ -1,0 +1,27 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      Search: <input ng-model="search">
+    </div>
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Task</th>
+        <th>Due</th>
+        <th>Frequency</th>
+        <th>Koins</th>
+        <!-- <th>Assignees</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="task in tasks | orderByPriority | filter:search">
+        <td>{{reg.name}}</td>
+        <td>{{reg.due | date:'dd-MM-yyyy HH:mm:ss'}} ({{reg.due | relativeDate}})</td>
+        <td>{{reg.frequency}})</td>
+        <td>{{reg.koins}}</td>
+        <!-- <td>{{reg.Assignees}}</td> -->
+      </tr>
+    </tbody>
+  </table>
+</div>
