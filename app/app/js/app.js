@@ -2,6 +2,7 @@
 
 var kleen = angular.module("kleen", [
   'kleenControllers',
+  'relativeDate',
   'firebase',
   'ngRoute'
   ]);
